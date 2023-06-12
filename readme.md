@@ -5,7 +5,7 @@ A microfrontends host application build with React, TypeScript and Vite.
 
 This is a simple microfrontends architecture completely made with React and the bare minimum libraries.
 
-[Live] (https://glittery-bavarois-ff123a.netlify.app/)
+[Live](https://glittery-bavarois-ff123a.netlify.app/)
 
 Demo
 ![Demo](/demo/demo.jpg)
