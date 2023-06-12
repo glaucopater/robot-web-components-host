@@ -5,12 +5,14 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microfrontend Architecture with Vite + React + TS</title>
-    <link rel="stylesheet" href="%VITE_REMOTE_MFE_URL%/assets/index.css" />
+    <link rel="stylesheet" href="%VITE_REMOTE_MFE_ARM_URL%/assets/index.css" />
   </head>
   <body>
     <div id="root"></div>
-    <%VITE_REMOTE_MFE_NAME%></%VITE_REMOTE_MFE_NAME%> 
+    <%VITE_REMOTE_MFE_ARM_NAME%></%VITE_REMOTE_MFE_ARM_NAME%> 
+    <%VITE_REMOTE_MFE_LEG_NAME%></%VITE_REMOTE_MFE_LEG_NAME%> 
     <script type="module" src="/src/main.tsx"></script>
-    <script type="module" src="%VITE_REMOTE_MFE_URL%/assets/index.js"></script>
+    <script type="module" defer src="%VITE_REMOTE_MFE_ARM_URL%/assets/index.js"></script>
+    <script type="module" defer src="%VITE_REMOTE_MFE_LEG_URL%/assets/index.js"></script>
   </body>
 </html>

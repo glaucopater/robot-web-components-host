@@ -1,10 +1,17 @@
-import { Link } from 'react-router-dom';
-
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to the Dashboard</h1>
-      <Link to="/reminders">Go to Reminders</Link>
+      <h1>Domo Arigato Mr.ROBOTO</h1>
+      <div
+        style={{
+          fontSize: 80,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        🤖
+      </div>
     </div>
   );
 };
